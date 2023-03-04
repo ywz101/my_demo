@@ -1,5 +1,8 @@
 <script setup>
 import TabBar from '@/components/tab-bar/TabBar.vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
 </script>
 
 <template>
@@ -10,6 +13,7 @@ import TabBar from '@/components/tab-bar/TabBar.vue'
     <router-link to="/order">订单</router-link>
     <router-link to="/message">消息</router-link>
     <h2>app组件</h2> -->
+    <!-- <TabBar v-if="!route.meta.hideTabbar" /> -->
     <TabBar />
   </div>
 </template>

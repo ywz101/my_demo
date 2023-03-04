@@ -4,7 +4,6 @@ import { getAssetURL } from '@/utils/load_assets'
 import { ref } from 'vue'
 
 const currentIndex = ref(0)
-
 </script>
 
 <template>

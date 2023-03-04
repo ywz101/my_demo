@@ -3,11 +3,9 @@
 </script>
 
 <template>
-  <div class="home-nav-bar">
     <nav class="nav-bar">
       <h2 class="title">我的旅途</h2>
     </nav>
-  </div>
 </template>
 
 <style lang="less" scoped>
